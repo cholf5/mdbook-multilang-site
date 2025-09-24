@@ -1,0 +1,83 @@
+{
+  "site": {
+    "title": "How to Love",
+    "tagline": "A multilingual book template built with Markdown",
+    "description": "An opinionated template for publishing a multilingual book as a static website. Replace the Markdown files with your own chapters and update this config to launch your book.",
+    "author": "Your Name",
+    "baseUrl": "https://example.com/how-to-love/",
+    "defaultLanguage": "en",
+    "footer": "© {year} Your Name. Released under the MIT License.",
+    "logo": "images/demo.webp",
+    "contentsLabel": {
+      "en": "Contents",
+      "zh-cn": "目录",
+      "zh-tw": "目錄"
+    },
+    "languageLabel": {
+      "en": "Languages",
+      "zh-cn": "语言",
+      "zh-tw": "語言"
+    }
+  },
+  "languages": [
+    {
+      "code": "en",
+      "label": "English",
+      "locale": "en",
+      "direction": "ltr"
+    },
+    {
+      "code": "zh-cn",
+      "label": "简体中文",
+      "locale": "zh-CN",
+      "direction": "ltr"
+    },
+    {
+      "code": "zh-tw",
+      "label": "繁體中文",
+      "locale": "zh-TW",
+      "direction": "ltr"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "introduction",
+      "titles": {
+        "en": "Introduction",
+        "zh-cn": "简介",
+        "zh-tw": "簡介"
+      },
+      "files": {
+        "en": "introduction.md",
+        "zh-cn": "introduction.md",
+        "zh-tw": "introduction.md"
+      },
+      "description": "Start here to learn how the template is organised."
+    },
+    {
+      "id": "writing-with-markdown",
+      "titles": {
+        "en": "Writing with Markdown",
+        "zh-cn": "用 Markdown 写作",
+        "zh-tw": "用 Markdown 寫作"
+      },
+      "files": {
+        "en": "writing-with-markdown.md",
+        "zh-cn": "writing-with-markdown.md",
+        "zh-tw": "writing-with-markdown.md"
+      },
+      "description": "Replace these placeholder chapters with the content of your book."
+    }
+  ],
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/cholf5/mdbook-multilang-site"
+    }
+  ],
+  "seo": {
+    "keywords": ["markdown book", "multilingual book", "static site template"],
+    "socialImage": "images/demo.webp",
+    "twitter": "@example"
+  }
+}

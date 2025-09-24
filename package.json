@@ -1,0 +1,9 @@
+{
+  "name": "mdbook-multilang-site-template",
+  "version": "1.0.0",
+  "description": "Static multilingual book template driven by Markdown and a JSON config",
+  "type": "module",
+  "scripts": {
+    "generate:sitemap": "node tools/generate-sitemap.mjs"
+  }
+}

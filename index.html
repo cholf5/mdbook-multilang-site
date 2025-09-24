@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Multilingual Book Template</title>
+    <meta name="description" content="Publish a multilingual book with Markdown and zero build tooling." />
+    <meta name="keywords" content="book, markdown, multilingual" />
+    <link rel="canonical" href="https://example.com/how-to-love/" />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="icon" type="image/png" href="images/demo.webp" />
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" integrity="sha384-P4RduCMsZ/HwtaFcIMc0HRzyIeWAtKvTPQrOAHJYjWCceLbsRKPrH2mQb23jArty" crossorigin="anonymous"></script>
+    <script defer src="assets/scripts.js"></script>
+    <script type="application/ld+json" id="structured-data">
+      {
+        "@context": "https://schema.org",
+        "@type": "Book",
+        "name": "Multilingual Book Template",
+        "inLanguage": ["en"],
+        "author": {
+          "@type": "Person",
+          "name": "Your Name"
+        },
+        "url": "https://example.com/how-to-love/"
+      }
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-meta">
+        <img id="site-logo" class="site-logo" alt="Site logo" />
+        <div>
+          <h1 id="site-title">Multilingual Book Template</h1>
+          <p id="site-tagline">Publish a multilingual book with Markdown.</p>
+        </div>
+      </div>
+      <nav class="site-nav" aria-label="Primary">
+        <ul id="site-links"></ul>
+      </nav>
+      <div class="language-switcher" id="language-switcher" aria-label="Languages"></div>
+    </header>
+
+    <main class="layout">
+      <aside class="sidebar" aria-label="Chapters">
+        <h2 class="sidebar-title" id="chapters-label">Contents</h2>
+        <ul id="chapter-list" class="chapter-list"></ul>
+      </aside>
+      <article class="content" aria-live="polite">
+        <div class="chapter-meta">
+          <h2 id="chapter-title"></h2>
+          <p id="chapter-description" class="chapter-description"></p>
+        </div>
+        <div id="chapter-content" class="chapter-content"></div>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <p id="footer-text">© 2024 Your Name. Released under the MIT License.</p>
+    </footer>
+  </body>
+</html>

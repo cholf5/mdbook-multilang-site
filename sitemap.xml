@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://example.com/how-to-love/?lang=en&amp;chapter=introduction</loc>
+    <lastmod>2025-09-24T10:45:38.077Z</lastmod>
+  </url>
+  <url>
+    <loc>https://example.com/how-to-love/?lang=zh-cn&amp;chapter=introduction</loc>
+    <lastmod>2025-09-24T10:45:40.685Z</lastmod>
+  </url>
+  <url>
+    <loc>https://example.com/how-to-love/?lang=zh-tw&amp;chapter=introduction</loc>
+    <lastmod>2025-09-24T10:45:44.242Z</lastmod>
+  </url>
+  <url>
+    <loc>https://example.com/how-to-love/?lang=en&amp;chapter=writing-with-markdown</loc>
+    <lastmod>2025-09-24T10:45:47.914Z</lastmod>
+  </url>
+  <url>
+    <loc>https://example.com/how-to-love/?lang=zh-cn&amp;chapter=writing-with-markdown</loc>
+    <lastmod>2025-09-24T10:45:51.674Z</lastmod>
+  </url>
+  <url>
+    <loc>https://example.com/how-to-love/?lang=zh-tw&amp;chapter=writing-with-markdown</loc>
+    <lastmod>2025-09-24T10:45:54.734Z</lastmod>
+  </url>
+</urlset>
